@@ -1,2 +1,2 @@
-# projetos de desenvolvimento
+# Projetos-de-Desenvolvimento
 Repositório dos meus projetos
