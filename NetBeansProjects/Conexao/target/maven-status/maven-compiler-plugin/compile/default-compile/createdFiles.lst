@@ -1,0 +1,5 @@
+DAO\AlunoDao.class
+DAO\ProfessorDao.class
+entidades\Professor.class
+entidades\Aluno.class
+principal\Main.class

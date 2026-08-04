@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a ,b ,c;
+	
+	printf("Insira tres numeros:\n");
+	scanf("%d %d %d", &a, &b, &c);
+
+	
+	if(a > b && a > c){
+		printf("O maior numero eh o: %d. \n",a);
+	}else if (b > a && b > c){
+		printf("O maior numero  eh o: %d. \n",b);
+	}else{
+		printf("O maior numero eh o: %d. \n",c);
+	}
+	return 0;
+}

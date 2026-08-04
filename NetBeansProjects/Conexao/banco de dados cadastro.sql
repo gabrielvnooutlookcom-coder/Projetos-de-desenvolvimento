@@ -1,0 +1,20 @@
+CREATE DATABASE IF NOT EXISTS cadastro;
+USE cadastro;
+
+CREATE TABLE IF NOT EXISTS aluno (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    rga VARCHAR(20) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    curso VARCHAR(100) NOT NULL
+);
+
+select * from aluno;
+
+CREATE TABLE IF NOT EXISTS professor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    siape VARCHAR(20) NOT NULL,
+    unidade_academica VARCHAR(100) NOT NULL,
+    curso VARCHAR(100) NOT NULL
+);

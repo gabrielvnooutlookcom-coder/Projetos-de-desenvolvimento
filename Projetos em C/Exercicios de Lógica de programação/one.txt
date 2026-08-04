@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+	
+	int dia1 ,mes1, ano1;
+	int dia2 ,mes2, ano2;
+	
+	printf("digite a primeira data (dia,mes,ano):");
+	scanf("%d %d %d", &dia1, &mes1, &ano1);
+    printf("digite a segunda data (dia,mes,ano):");
+	scanf("%d %d %d", &dia2, &mes2, &ano2);
+ 
+ if((ano1 < ano2) || (ano1 == ano2 && mes1 < mes2) || (ano1 == ano2 && mes1 == mes2 && dia1 < dia2)){
+ 	printf("A primeira data ocorreu antes da segunda.\n");
+ }else if(ano1 == ano2 && mes1 == mes2 && dia1 == dia2){
+ 	printf("As duas datas são iguias.\n");
+ }else{
+ 	printf("A segunda data ocorreu antes da primeira.\n");
+ }
+	return 0;
+}

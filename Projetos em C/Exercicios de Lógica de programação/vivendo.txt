@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	int resposta;
+	
+	 while(resposta != 5){
+          	printf("MENU DE OPÇÕES DE PRATOS:\n");
+          	printf("==================\n");
+          	printf("[1] FILÉ MIGNON A PARMEGIANA\n");
+          	printf("[2] STROGONOFF DE FRANGO\n");
+          	printf("[3] LASANHA DE CARNE\n");
+          	printf("[4] MACARRÃO AO MOLHO FUNGHI\n");
+          	printf("[5] NAÕ DESEJO NEHUMA DESSAS OPÇÕES\n");
+          	printf("===== RESPOSTA:");
+          	scanf("%d",&resposta);
+          	system("cls");
+          	
+		if(resposta == 1){
+		printf("O prato vem acompanhado com Batata frita,Arroz e Salada de repolho");
+		printf("\nPREÇO:28,20$");
+	
+		}else if(resposta == 2){
+		printf("O prato vem acompanhado com Batata palha,Arroz e Salada de brocolis");
+		printf("\nPREÇO:25,00$");
+	
+		}else if(resposta == 3){
+		printf("O prato vem acompanhado com Feijão,Batata frita,Farofa de banana e uma Salada de tomate");
+		printf("\nPREÇO:34,50$");
+	
+		}else if(resposta == 4){
+		printf("O prato vem com tiras de Filé mignon e o molho é feito com cogumelos secos");
+		printf("\nPREÇO:40,00$");
+	
+		}else if(resposta == 5){
+		printf("\nSaindo...");
+		
+		}
+	
+	}
+	return 0;
+}
